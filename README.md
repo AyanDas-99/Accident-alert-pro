@@ -35,4 +35,4 @@ All the recommended config is already done. But you can optionally set the accel
 
 This is a beginner level project, so there is no contribution guildline included. Feel free to raise issues, propose changes or contact me for any investigation, I'll be more than happy to help out in any way possible.
 
-### Thank You
+<h2 align="center">Thank You<h2/>
