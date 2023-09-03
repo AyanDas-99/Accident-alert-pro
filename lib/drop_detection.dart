@@ -47,6 +47,8 @@ class _DropDetectionState extends State<DropDetection>
     );
 
     // Listen to sudden deceleration event
+    // **** Optional Config ****
+    // (optional) Pass the threshold property in the isSuddenDecelerating() funtion to set the max acceleration or deceleration above which accident is detected
     Acceleration().isSuddenDecelerating().listen((event) {
       if (event == true) {
         // Sudden deceleration suggests accident occured
